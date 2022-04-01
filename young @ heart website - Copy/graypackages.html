@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Packages</title>
+<head>
+<link rel="stylesheet" href="pinkpackagesstyle.css" type="text/css">
+<link rel="stylesheet" href="productstyle.css" type="text/css">
+<link rel="stylesheet" href="onemodal.css" type="text/css">
+<script src="float-panel.js"></script>
+</head>
+<body>
+
+
+<button class="button" onclick="goBack()">Go Back</button>
+<div id="backtop">&#9650;</div>
+
+
+<h1>GRAY THEMED PARTY PACKAGES.</h1>
+<div id="joke">
+
+	<img id="myImg" src="gray3.jpg" width="300" height="200">
+	<div id="myModal" class="modal">
+	<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+	<img class="modal-content" id="img01">
+	<div id="caption">Flat Gray<br>Package: &#8369; 30,000.00</div>
+	</div>
+
+<img id="myImg" src="gray2.jpg" alt="Fuschia Pink" width="300" height="200">
+<img id="myImg" src="gray1.jpg" alt="Fuschia Pink" width="300" height="200">
+<img id="myImg" src="gray4.jpg" alt="Fuschia Pink" width="300" height="200">
+<img id="myImg" src="gray5.jpg" alt="Fuschia Pink" width="300" height="200">
+<img id="myImg" src="gray6.jpg" alt="Fuschia Pink" width="300" height="200">
+<img id="myImg" src="yuyu.jpg" alt="Fuschia Pink" width="300" height="200">
+<img id="myImg" src="gray7.jpg" alt="Fuschia Pink" width="300" height="200">
+<img id="myImg" src="bw7.jpg" alt="Fuschia Pink" width="300" height="200">
+
+</div>
+</body>
+<script>
+function goBack() {
+    window.history.back();
+}
+
+var modal = document.getElementById('myModal');
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+</script>
+</html>

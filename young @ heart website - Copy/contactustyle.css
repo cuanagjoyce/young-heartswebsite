@@ -1,0 +1,28 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 40%; /* Full width */
+    padding: 12px; /* padding */
+    border: 1px solid #000; /* border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* resize the textarea */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #fff;
+    color: black;
+    padding: 12px 20px;
+    border: solid black 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* padding around the form */
+.container {
+    border-radius: 0px;
+    padding: 20px;
+}

@@ -1,0 +1,31 @@
+button.carty {
+  background-color: transparent;
+  border: solid black 2px;
+  color: black;
+  font-weight: bold;
+  width: 200px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+
+}
+button.carty:hover {
+
+  background-color: white;
+  border: solid black 2px;
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+  	transform: scale(1.1);
+    	transition: all .2s ease-in-out;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  margin: 0px;
+}
+.footer {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,74 @@
+button.signup {
+  background-color: transparent;
+  border: solid black 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100px;
+  text-decoration: none;
+}
+button.signup:hover {
+  background-color: black;
+  border: solid black 2px;
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.myForm button.login {
+  background-color: transparent;
+  border: solid black 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  width: 90px;
+  text-decoration: none;
+}
+.myForm button.login:hover {
+  background-color: black;
+  border: solid black 2px;
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.myForm {
+font-size: 15px;
+padding: 15px;
+border: 1px solid #000;
+border-radius: 3px;
+}
+
+.myForm * {
+box-sizing:border-box;
+}
+
+.myForm label {
+font-size: 0.9em;
+}
+
+.myForm .audioOnly {
+position: absolute;
+width: 10px;
+height: 10px;
+padding: 10px;
+margin: 1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+border: 0;
+}
+
+.myForm input {
+border: 1px solid #000;
+border-radius: 3px;
+font-size: 0.9em;
+padding: 5px;
+}
+
+.myForm input[type="email"],
+.myForm input[type="password"] {
+width: 12em;
+}
